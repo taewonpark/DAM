@@ -53,14 +53,14 @@ python train.py \
   --mode=RepresentationRecall \
   --babi=False \
   --dam=True \
-  --num_memory_blocks=2 \
+  --num_memory_blocks=8 \
   --batch_size=16 \
   --learning_rate=1e-4 \
   --hidden_size=128 \
   --memory_address_size=32 \
-  --memory_length_size=60 \
+  --memory_length_size=32 \
   --num_read_heads=1 \
-  --N=4 \
+  --N=8 \
   --bit_w=64 \
   --num_bit=8
   --min_length=8 \
