@@ -1,8 +1,9 @@
 Distributed Associative Memory Network with Memory Refreshing Loss
 ===
 
-Source code for '[Distributed Associative Memory Network with Memory Refreshing Loss](https://github.com/deepmind/dnc)'. <br>
+Source code for '[Distributed Associative Memory Network with Memory Refreshing Loss](https://arxiv.org/abs/2007.10637)'. <br>
 
+<br>
 
 Requirements
 ---
@@ -185,8 +186,6 @@ python run_convexhull.py \
       --epoch=5 \
       --name=path/to/checkpoint_dir
   ```
-
-<br> 
 
 Evaluation
 ---
