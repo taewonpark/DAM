@@ -204,21 +204,7 @@ python eval.py \
   --name=path/to/checkpoint_dir \
   --num=<the number of training iterations>
 ```
-  
-<br>
 
-
-```shell
-python eval.py \
-  --dam=True \
-  --num_memory_blocks=2 \
-  --hidden_size=256 \
-  --memory_address_size=128 \
-  --memory_length_size=48 \
-  --num_read_heads=4 \
-  --name=model \
-  --num=107360
-```
 
 
 Acknowledement
