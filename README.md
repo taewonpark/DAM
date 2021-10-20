@@ -1,7 +1,7 @@
 Distributed Associative Memory Network with Memory Refreshing Loss
 ===
 
-Source code for '[Distributed Associative Memory Network with Memory Refreshing Loss](https://arxiv.org/abs/2007.10637)'. <br>
+Source code for '[Distributed Associative Memory Network with Memory Refreshing Loss](https://doi.org/10.1016/j.neunet.2021.07.030)'. <br>
 
 <br>
 
@@ -202,6 +202,20 @@ python eval.py \
   --num_read_heads=4 \
   --name=path/to/checkpoint_dir \
   --num=<the number of training iterations>
+```
+
+
+# Citation
+```
+@article{park2021distributed,
+  title={Distributed associative memory network with memory refreshing loss},
+  author={Park, Taewon and Choi, Inchul and Lee, Minho},
+  journal={Neural Networks},
+  volume={144},
+  pages={33--48},
+  year={2021},
+  publisher={Elsevier}
+}
 ```
 
 
